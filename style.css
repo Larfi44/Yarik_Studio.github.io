@@ -1,0 +1,62 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  border-radius: 1em;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.card:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.card img {
+  border-radius: 50%;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+  padding: 1em;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.card-additional {
+  margin-top: auto;
+}
+
+.filter-btn.active {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.card.hidden {
+  display: none !important;
+}
+
+.project-card.hidden {
+  display: none !important;
+}
+
+:root {
+  --logo-image: url("img/logo (light).png");
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --logo-image: url("img/logo (light).png");
+  }
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  background-image: var(--logo-image);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
