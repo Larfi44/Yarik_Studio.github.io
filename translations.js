@@ -91,12 +91,6 @@ window.translations = {
       'Clicker, where you need to click on the quantum that moves you to other worlds!',
     'project.quantum_clicker.languages': 'English, Russian, Chinese',
     'project.quantum_clicker.release_date': 'June, 2025',
-    // To-do List
-    'project.todo_list.title': 'To-do List',
-    'project.todo_list.description':
-      'A useful application where you can record your tasks and goals.',
-    'project.todo_list.languages': 'English, Russian',
-    'project.todo_list.release_date': 'May, 2025',
     // YarikCoin
     'project.yarikcoin.title': 'YarikCoin',
     'project.yarikcoin.description':
@@ -295,11 +289,6 @@ window.translations = {
     'project.quantum_clicker.description':
       'Кликер, в котором нужно кликать на квант, перемещающий вас в другие миры!',
     'project.quantum_clicker.release_date': 'Июнь 2025',
-    // To-do List
-    'project.todo_list.title': 'To-do List',
-    'project.todo_list.description':
-      'Полезное приложение, где вы можете записывать свои задачи и цели.',
-    'project.todo_list.release_date': 'Май 2025',
     // YarikCoin
     'project.yarikcoin.title': 'YarikCoin',
     'project.yarikcoin.description':
