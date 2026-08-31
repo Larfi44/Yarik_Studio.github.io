@@ -22,7 +22,8 @@ window.translations = {
     'home.owner': 'Owner: Yaroslav Krasulya',
     'home.open-source':
       'All the projects are open source and absolutely free to use.',
-    'home.github': 'GitHub Repositories',
+    'home.gitverse': 'GitVerse Repositories',
+    'home.vk_video': 'VK Video',
     'home.btn_projects': 'Projects',
     'home.btn_members': 'Members',
     'home.btn_news': 'News',
@@ -37,9 +38,17 @@ window.translations = {
     'projects.filter_others': 'Others',
     'projects.languages': 'Languages',
     'projects.release_date': 'Release date',
+    // Languages
+    'project.eng.languages': 'English',
+    'project.ru.languages': 'Russian',
+    'project.eng-ru.languages': 'English, Russian',
+    'project.eng-ru-chn.languages': 'English, Russian, Chinese',
+    // Platforms
     'projects.site': 'Site',
-    'projects.mobile_app': 'Mobile app',
+    'projects.mobile-app': 'Mobile app',
+    'projects.site+mobile': 'Site and Mobile app',
     'projects.site+mobile+desktop': 'Site, Mobile app, Desktop app',
+    // Search
     'projects.search_placeholder': 'Search projects',
     'projects.search_results': ' projects found',
     'projects.no_results_title': 'No projects found',
@@ -47,12 +56,23 @@ window.translations = {
       "Try adjusting your search or filter to find what you're looking for.",
 
     // ---- Project descriptions ----
+    // Yaroslav Calculator
+    'project.yaroslavcalculator.title': 'Yaroslav Calculator',
+    'project.yaroslavcalculator.description':
+      'Multi-functional calculator including converter, timer, currency exchange and randomizer.',
+    'project.yaroslavcalculator.languages': 'English, Russian',
+    'project.yaroslavcalculator.release_date': 'July 15, 2026',
     // Yarik Weather
     'project.yarikweather.title': 'Yarik Weather',
     'project.yarikweather.description':
       'Weather app with AI-powered recommendations, interactive charts, astronomy data, and coastal city detection.',
     'project.yarikweather.languages': 'English, Russian',
     'project.yarikweather.release_date': 'June 11, 2026',
+    // Gravity Simulator
+    'project.gravity-simulator.title': 'Gravity Simulator',
+    'project.gravity-simulator.description':
+      'A ball physics simulator where you adjust gravity, height, bounce and so on - then watch realistic falling and bouncing in real-time!',
+    'project.gravity-simulator.release_date': 'July 1, 2026',
     // SpaceYarik Simulator
     'project.spaceyarik.title': 'SpaceYarik Simulator',
     'project.spaceyarik.description':
@@ -93,15 +113,25 @@ window.translations = {
     'member.name': 'Yaroslav Krasulya',
     'member.rank': 'Owner and Main developer',
     'member.description':
-      'I am the main developer and the owner of Yarik Studio. I do the development and design myself.',
+      'I am the main developer and the owner of Yarik Studio. I do the development myself.',
     'member.contacts_title': '📫 Contacts',
-    'member.github': 'GitHub Profile',
+    'member.gitverse': 'GitVerse Profile',
 
     // --- News page ---
     // Overall
     'news.author': 'Author',
-    'news.yaroslav.author_name': 'Yaroslav Krasulya',
+    'news.yaroslav.author-name': 'Yaroslav Krasulya',
     'news.date': 'Date',
+    // Yaroslav Calculator
+    'news.yaroslavcalculator.title': 'New project: Yaroslav Calculator',
+    'news.yaroslavcalculator.description':
+      'Multi-functional calculator including converter, timer, currency exchange and randomizer.',
+    'news.yaroslavcalculator.date': 'July 15, 2026',
+    // Gravity Simulator
+    'news.gravity-simulator.title': 'New project: Gravity Simulator',
+    'news.gravity-simulator.description':
+      'A ball physics simulator where you adjust gravity, height, bounce and so on - then watch realistic falling and bouncing in real-time!',
+    'news.gravity-simulator.date': 'July 1, 2026',
     // Yarik Weather
     'news.yarikweather.title': 'New project: Yarik Weather',
     'news.yarikweather.description':
@@ -154,7 +184,7 @@ window.translations = {
     'donate.description1':
       'Yarik Studio is a creative non-commercial IT startup that creates useful AI assistants, websites, and mobile applications.',
     'donate.description2':
-      'We are committed to the open-source philosophy — all our projects are free to use and their source code is publicly available on GitHub.',
+      'We are committed to the open-source philosophy — all our projects are free to use and their source code is publicly available on GitVerse.',
     'donate.description3':
       'We create tools that help people in their daily lives, education, and entertainment. Our goal is to make technology accessible to everyone.',
     'donate.description4':
@@ -198,7 +228,8 @@ window.translations = {
     'home.owner': 'Владелец: Красуля Ярослав',
     'home.open-source':
       'Все проекты имеют открытый исходный код и абсолютно бесплатны.',
-    'home.github': 'Репозитории GitHub',
+    'home.gitverse': 'Репозитории GitVerse',
+    'home.vk_video': 'VK Видео',
     'home.btn_projects': 'Проекты',
     'home.btn_members': 'Участники',
     'home.btn_news': 'Новости',
@@ -213,10 +244,18 @@ window.translations = {
     'projects.filter_others': 'Другое',
     'projects.languages': 'Языки',
     'projects.release_date': 'Дата выхода',
+    // Languages
+    'project.eng.languages': 'Английский',
+    'project.ru.languages': 'Русский',
+    'project.eng-ru.languages': 'Английский, Русский',
+    'project.eng-ru-chn.languages': 'Английский, Русский, Китайский',
+    // Platforms
     'projects.site': 'Сайт',
-    'projects.mobile_app': 'Мобильное приложение',
+    'projects.mobile-app': 'Мобильное приложение',
+    'projects.site+mobile': 'Сайт и Мобильное приложение',
     'projects.site+mobile+desktop':
       'Сайт, Мобильное приложение, Приложение на компьютер',
+    // Search
     'projects.search_placeholder': 'Искать проекты',
     'projects.search_results': ' проектов найдено',
     'projects.no_results_title': 'Ничего не найдено',
@@ -224,17 +263,26 @@ window.translations = {
       'Попробуйте изменить параметры поиска или фильтр.',
 
     // ---- Project descriptions ----
+    // Yaroslav Calculator
+    'project.yaroslavcalculator.title': 'Yaroslav Calculator',
+    'project.yaroslavcalculator.description':
+      'Многофункциональный калькулятор, включающий конвертер, таймер, обмен валют и рандомайзер.',
+    'project.yaroslavcalculator.languages': 'Английский, Русский',
+    'project.yaroslavcalculator.release_date': '15 июля 2026',
     // Yarik Weather
     'project.yarikweather.title': 'Yarik Weather',
     'project.yarikweather.description':
       'Приложение о погоде с рекомендациями на основе искусственного интеллекта, интерактивными картами, астрономическими данными и функцией определения прибрежных городов.',
-    'project.yarikweather.languages': 'Английский, Русский',
     'project.yarikweather.release_date': '11 июня 2026',
+    // Gravity Simulator
+    'project.gravity-simulator.title': 'Gravity Simulator',
+    'project.gravity-simulator.description':
+      'Физический симулятор мяча, в котором вы регулируете гравитацию, высоту, отскок и так далее, а затем наблюдаете за реалистичным падением и отскоком в режиме реального времени!',
+    'project.gravity-simulator.release_date': '1 июля 2026',
     // SpaceYarik Simulator
     'project.spaceyarik.title': 'SpaceYarik Simulator',
     'project.spaceyarik.description':
       'Исследуйте Солнечную систему в реальном масштабе! Навигация по планетам, лунам, астероидам и кометам. Регулируйте режимы масштаба, следите за орбитами и изучайте небесную механику!',
-    'project.spaceyarik.languages': 'Английский, Русский',
     'project.spaceyarik.release_date': '31 декабря 2025',
     // War throug the Ages
     'project.war_ages.title': 'War through the Ages',
@@ -246,43 +294,49 @@ window.translations = {
     'project.quantum_clicker.title': 'Quantum clicker',
     'project.quantum_clicker.description':
       'Кликер, в котором нужно кликать на квант, перемещающий вас в другие миры!',
-    'project.quantum_clicker.languages': 'Английский, Русский, Китайский',
     'project.quantum_clicker.release_date': 'Июнь 2025',
     // To-do List
     'project.todo_list.title': 'To-do List',
     'project.todo_list.description':
       'Полезное приложение, где вы можете записывать свои задачи и цели.',
-    'project.todo_list.languages': 'Английский, Русский',
     'project.todo_list.release_date': 'Май 2025',
-    // YarikCoind
+    // YarikCoin
     'project.yarikcoin.title': 'YarikCoin',
     'project.yarikcoin.description':
       'Виртуальная криптовалюта, меняющаяся каждый час, с виртуальными деньгами, графиками и многими другими функциями!',
-    'project.yarikcoin.languages': 'Русский, Английский',
     'project.yarikcoin.release_date': '21 апреля 2025',
     // Pikuco
     'project.pikuco.title': 'Тесты на pikuco.ru',
     'project.pikuco.description': 'Более 30 тестов на разные темы.',
-    'project.pikuco.languages': 'Русский',
     'project.pikuco.release_date': 'Март 2024 (первый тест)',
 
     // ---- Members page ----
     'member.name': 'Красуля Ярослав',
     'member.rank': 'Владелец и Главный разработчик',
     'member.description':
-      'Я главный разработчик и владелец Yarik Studio. Я занимаюсь разработкой и дизайном самостоятельно.',
+      'Я главный разработчик и владелец Yarik Studio. Я занимаюсь разработкой самостоятельно.',
     'member.contacts_title': '📫 Контакты',
-    'member.github': 'Профиль GitHub',
+    'member.gitverse': 'Профиль GitVerse',
 
     // ---- News page ----
     // Overall
     'news.author': 'Автор',
-    'news.yaroslav.author_name': 'Красуля Ярослав',
+    'news.yaroslav.author-name': 'Красуля Ярослав',
     'news.date': 'Дата',
+    // Yaroslav Calculator
+    'news.yaroslavcalculator.title': 'Новый проект: Yaroslav Calculator',
+    'news.yaroslavcalculator.description':
+      'Многофункциональный калькулятор, включающий конвертер, таймер, обмен валют и рандомайзер.',
+    'news.yaroslavcalculator.date': '15 июля 2026',
+    // Gravity Simulator
+    'news.gravity-simulator.title': 'Новый проект: Gravity Simulator',
+    'news.gravity-simulator.description':
+      'Физический симулятор мяча, в котором вы регулируете гравитацию, высоту, отскок и так далее, а затем наблюдаете за реалистичным падением и отскоком в режиме реального времени!',
+    'news.gravity-simulator.date': '1 июля 2026',
     // Yarik Weather
     'news.yarikweather.title': 'Новый проект: Yarik Weather',
     'news.yarikweather.description':
-      'Приложение о погоде с рекомендациями на основе искусственного интеллекта, интерактивными картами, астрономическими данными и функцией определения прибрежных городов.',
+      'Это приложение о погоде с рекомендациями на основе искусственного интеллекта, интерактивными картами, астрономическими данными и функцией определения прибрежных городов.',
     'news.yarikweather.date': '11 июня 2026',
     // Yarik Studio 3.0
     'news.yarikstudio_update_3.0.title': 'Обновление сайта Yarik Studio (3.0)',
@@ -331,7 +385,7 @@ window.translations = {
     'donate.description1':
       'Yarik Studio — это некоммерческий IT-стартап, который создаёт полезных AI-помощников, веб-сайты и мобильные приложения.',
     'donate.description2':
-      'Мы придерживаемся философии открытого исходного кода — все наши проекты бесплатны, а их код доступен на GitHub.',
+      'Мы придерживаемся философии открытого исходного кода — все наши проекты бесплатны, а их код доступен на GitVerse.',
     'donate.description3':
       'Мы создаём инструменты, которые помогают людям в повседневной жизни, образовании и развлечениях. Наша цель — сделать технологии доступными для всех.',
     'donate.description4':

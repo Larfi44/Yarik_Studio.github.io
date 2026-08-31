@@ -7,8 +7,8 @@
 
 /* ---- THEME VARIABLES ---- */
 :root {
-  --primary-color: #2563eb;
-  --hover-color: #3b82f6;
+  --primary-color: rgb(255, 125, 0);
+  --hover-color: rgb(255, 125, 0);
   --background-color: #ffffff;
   --surface-color: #f9fafb;
   --text-color: #1f2937;
@@ -17,7 +17,7 @@
   --card-bg: #ffffff;
   --navbar-bg: #1f2937;
   --navbar-text: #f9fafb;
-  --btn-primary-bg: #2563eb;
+  --btn-primary-bg: rgb(255, 125, 0);
   --btn-secondary-bg: #6b7280;
   --btn-donate-bg: #f97316;
   --btn-donate-hover: #ea580c;
@@ -25,12 +25,12 @@
   --card-shadow-hover: 0 20px 40px rgba(0, 0, 0, 0.12);
   --search-bg: #ffffff;
   --search-border: #e5e7eb;
-  --github-bg: #24292f;
+  --btn-dark-bg: #24292f;
 }
 
 [data-theme='dark'] {
-  --primary-color: #3b82f6;
-  --hover-color: #60a5fa;
+  --primary-color: rgb(255, 125, 0);
+  --hover-color: rgb(255, 125, 0);
   --background-color: #111827;
   --surface-color: #1f2937;
   --text-color: #f9fafb;
@@ -39,14 +39,14 @@
   --card-bg: #1f2937;
   --navbar-bg: #111827;
   --navbar-text: #f9fafb;
-  --btn-primary-bg: #3b82f6;
+  --btn-primary-bg: rgb(255, 125, 0);
   --btn-secondary-bg: #4b5563;
   --btn-donate-bg: #f97316;
   --btn-donate-hover: #ea580c;
   --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   --search-bg: #1f2937;
   --search-border: #374151;
-  --github-bg: #2d3a4a;
+  --btn-dark-bg: #2d3a4a;
 }
 
 /* ---- GLOBAL STYLES ---- */
@@ -176,11 +176,11 @@ body {
   color: #f3f4f6;
 }
 .dropdown-item.active {
-  background: #2563eb;
+  background: var(--primary-color);
   color: #ffffff;
 }
 [data-theme='dark'] .dropdown-item.active {
-  background: #3b82f6;
+  background: var(--primary-color);
 }
 .dropdown-item:hover:not(.active) {
   background: #f3f4f6;
@@ -222,11 +222,11 @@ h1 {
 .lead:last-of-type {
   margin-bottom: 2rem;
 }
-.btn-github {
+.btn-brand {
   display: inline-flex;
   align-items: center;
   gap: 0.75rem;
-  background: var(--github-bg);
+  background: var(--btn-dark-bg);
   color: white;
   padding: 0.75rem 1.8rem;
   border-radius: 60px;
@@ -236,15 +236,25 @@ h1 {
     transform 0.2s,
     filter 0.2s;
 }
-.btn-github:hover {
+.btn-brand:hover {
   transform: translateY(-3px);
   filter: brightness(1.05);
 }
-.github-icon {
+.btn-gitverse {
+  background: #4f46e5;
+}
+.btn-vk {
+  background: #e30a17;
+}
+.brand-icon {
   width: 24px;
   height: 24px;
 }
-.github-section {
+.brand-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
   margin-bottom: 2rem;
 }
 
