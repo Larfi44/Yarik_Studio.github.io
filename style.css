@@ -244,7 +244,10 @@ h1 {
   background: #4f46e5;
 }
 .btn-vk {
-  background: #e30a17;
+  background: #0077ff;
+}
+.btn-vk-video {
+  background: red;
 }
 .brand-icon {
   width: 24px;
